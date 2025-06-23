@@ -101,7 +101,7 @@ with right_col:
 # 1) Load your trained model
 @st.cache_data
 def load_model():
-    return joblib.load("malaria_symptom_model.pkl")
+    return joblib.load("healthcare-proj/malaria_symptom_model.pkl")
 
 model = load_model()
 
